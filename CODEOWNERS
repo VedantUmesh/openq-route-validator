@@ -1,8 +1,10 @@
-# Default reviewers for the repository. Replace OWNER with the GitHub account
-# that owns this repository before enabling required-review branch protection.
-* @OWNER
+# Default reviewers for the repository. Replace `@OWNER` with the GitHub
+# account or team that owns this repository before enabling branch protection.
+# The placeholder is intentionally not an active owner until the repository
+# identity is known.
+# * @OWNER
 
 # Keep routing and safety behavior under explicit review.
-/src/openq_route_validator/ @OWNER
-/tests/ @OWNER
-/.github/ @OWNER
+# /src/openq_route_validator/ @OWNER
+# /tests/ @OWNER
+# /.github/ @OWNER
