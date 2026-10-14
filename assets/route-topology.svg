@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Directed three-node route topology</title>
+  <desc id="desc">Three nodes connected in a directed cycle: Q0 to Q1 to Q2 to Q0.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="720" height="240" rx="24" fill="#f8fafc"/>
+  <path d="M180 120 H318" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
+  <path d="M402 120 H540" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
+  <path d="M570 85 C515 15 205 15 150 85" fill="none" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
+  <circle cx="150" cy="120" r="42" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <circle cx="360" cy="120" r="42" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+  <circle cx="570" cy="120" r="42" fill="#fef3c7" stroke="#b45309" stroke-width="4"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" text-anchor="middle">
+    <text x="150" y="128" font-size="24" font-weight="700" fill="#0f172a">Q0</text>
+    <text x="360" y="128" font-size="24" font-weight="700" fill="#0f172a">Q1</text>
+    <text x="570" y="128" font-size="24" font-weight="700" fill="#0f172a">Q2</text>
+    <text x="360" y="215" font-size="18" fill="#334155">directed CNOT edges</text>
+  </g>
+</svg>

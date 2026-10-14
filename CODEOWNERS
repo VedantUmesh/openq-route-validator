@@ -1,0 +1,8 @@
+# Default reviewers for the repository. Replace OWNER with the GitHub account
+# that owns this repository before enabling required-review branch protection.
+* @OWNER
+
+# Keep routing and safety behavior under explicit review.
+/src/openq_route_validator/ @OWNER
+/tests/ @OWNER
+/.github/ @OWNER
